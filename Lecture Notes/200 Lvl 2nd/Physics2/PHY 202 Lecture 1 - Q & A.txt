@@ -1,0 +1,193 @@
+PHY 202
+
+Questions and Answers - Lecture 1 Slide
+
+Advice - Best way to learn this things as supposed to trying to cram them is to go through the pdfs and just watch youtube vidoes. if you put in the shift you'll definitely make progress.
+
+1a. What are some semiconductor devices?
+ Ans: transistors, integrated circuits(IC's)
+
+ b. List 5 diode semiconductors
+ Ans: pin diode, schottky diode, tunnel diode, laser diode, gunn diode
+
+
+2a. What are semiconductors?
+ Ans: Semiconductors are devices whose electrical propertise lie in between conductors and insulators
+
+ b. What are elemental semiconductors and compound semiconductors?
+ Ans: Elemental semiconductors are conductors that have no impurity and consists of a particular element
+
+ c. Give 2 examples of elemental semiconductors and 2 of compound semiconductors?
+ Ans: Silicon(Si), Germanium (Ge), 
+
+ d. Give 2 examples of conductors and insulators?
+ Ans: Gallium Asernide(GaAs), Cadmium Telluride(CdTe)
+
+
+3a. List the first 20 elements of the periodic table
+ Ans: Hydrogen, Hellium, Lithium, Beryllium, Boron, Carbon, Nitrogen, Oxygen, Flourine, Neon, Sodium, Magnesium, Aluminium, Silicon, Phosphorus, sulphur, Chlorine, Argon, Potassium, Calcium
+ 
+ b. what is an Atom?
+ Ans: An atom is the smallest particle of an element that retains the characteristics of the element.
+
+ c. What does the atom consist of exactly?(List all)
+ Ans: protons, neutrons(inside the nucleus) and electrons
+
+ d. What carries the total mass of the atom in the atom?
+ Ans: the nucleus
+
+ e. Write a short line or two about neutrons?
+ Ans: Neutrons are neutral and carry no charge
+
+ f. Write a short line or two about protons?
+ Ans: Protons are not neutral and carry positive charge
+
+ g. Write a short line or two about electrons?
+ Ans: Electrons are found outside the nucleus and are negatively charged 
+
+ h. What does it mean to say that "an atom is electrically neutral or balanced"?
+ Ans: When the number of protons is = to the number of electrons
+
+ i. Elements in a periodic table are arranged according to what?
+ Ans: Atomic Number
+
+ j. What is the Atomic Number of an atom?
+ Ans: The number of protons in an atom
+
+4a. Talk about electrons in a closer orbit to the nucleus as supposed to electrons at a more distant orbit to the nucleus?
+ Ans: Electrons in a closer orbit to the nucleus have lesser energy as supposed to those in more distant orbit having greater energy 
+
+ b. In an atom the orbits are grouped into what?
+ Ans: Energy bands
+
+ c. What is the valence shell?
+ Ans: The valence shell is the outermost shell in an atom
+
+ d. What does the valence shell determine in an atom?
+ Ans: It determines the conductivity of the atom
+
+ e. Electrons in valence shells are called _________?
+ Ans: Valence electrons
+
+5a. The maximum number of electrons in each shell of an atom is calculated using what formula exactly?
+ Ans: 2n^2(or 2n²)
+
+ b. When an atom absorbs energy(e.g. heat). what happens?
+ Ans: The energies of the atoms increase
+
+ c. Between the valence electrons and the first shells electrons. which are more loosely bound to the atom?
+ Ans: The valence electrons
+
+ d. If a valence electron acquires sufficient energy. what happens?
+ Ans: It escapes the outer shell
+
+ e. The process of loosing valence electron is called what?
+ Ans: Ionization
+
+ f. The electron that escapes the valence shell is called a ________?
+ Ans: free electron
+
+ g. What is an Ion?
+ Ans: An ion is an atom where the number of protons are not equal to the number of electrons (extra: this happens when atoms loose valence electrons)
+
+6a. In terms of electrical properties, materials are divided into ___________, ______________ and _____________
+ Ans: Conductors, Semi-conductors and insulators
+
+ b. What are conductors and insulators? list 3 of the best conductors and insulators?
+ Ans: Conductors are elements that easily conduct electricity due to having low resistance
+      Insulators are elements that don't conduct electricity due to having high resistance
+
+      Best Conductors, Insulators and Semiconductor materials
+      Conductors: Copper, Nickel, Aluminium, Gold, Silver
+      Insulators: dry wood, plastic, glass, ceramic
+      Semiconductors: Silicon, Germanium, GalliumArsenide(GaAs), Cadmium Telluride (CdTe)
+
+ c. How many electrons are in the valence shell of a semiconductor?
+ Ans: 4
+
+ d. Which is the most used semiconductor?
+ Ans: silicon
+
+ e. Draw the energy band diagram for the 3 types of materials?
+ Ans: in slide 16
+
+ g. what do materials contain?
+ Ans: uncountable number of atoms packed together and their energy levels overlap to form bands
+
+
+7a. What is Energy gap?
+ Ans: The energy required by the valence electrons to escape the valence shell
+
+ b. What is a band?
+ Ans: a band is another name for orbital shell
+
+ c. What is the conduction band?
+ Ans: The conduction band is the band of electron orbitals where electrons jump to from the valence band when excited
+
+
+8a. What is the Energy gap of an insulator, a semiconductor(e.g silicon, Germanium(Ge), Gallium Asenid(GaAs)) and Conductors?
+ Ans: insulator Eg > 5eV
+      semiconductor - silicon Eg > 1.1eV, germanium Eg > 0.67eV, insulator Eg > 1.41eV
+      Conductors - the conduction band and the valence band overlap (There is no Energy gap)
+
+ b. What is the lowest available energy band in an atom?
+ Ans: valence band
+
+ c. What is the next available energy band?
+ Ans: conduction band
+
+9a. At low temperature what happens to the valence band(VB) and the conduction band(CB)?
+ Ans: the valence band is completely filled up while the conduction band is completely empty
+
+ b. In metals what happens with the valence band and the conduction band?
+ Ans: Both bands overlap so metals conduct electricity
+
+ c. In semiconductors what happens with the valence band and the conduction band?
+ Ans: Both bands are relatively close to each other with a little energy gap
+
+ d. In insulators what happens with the valence band and the conduction band?
+ Ans: Both bands are far from each other with a large energy gap
+
+ e. At low temperature what happens to semiconductors and insulators?
+ Ans: The are the same and don't conduct electricity
+
+ f. At sufficient high temperature what happens to semiconductors?
+ Ans: They conduct electricity
+
+10a. What are the resistivity values of conductors, semiconductors and insulators?
+  Ans: Conductors = 10¯⁸Ωm(or 10^-8 ohm meter)
+       Semiconductors = 10¯¹Ωm(or 10^-1 ohm meter)
+       Insulators = 10⁴Ωm(or 10^4 ohm meter)
+
+  b. What happens when an electron in the valence band gains sufficient energy(e.g maybe from sunlight)?
+  Ans: It jumps the energy gap into the conduction band
+
+  c. What does the electron leave behind after surmounting the energy gap?
+  Ans: vacancy (or hole)
+
+  d. In the valence band electrons adjacent to holes tend to do what____________? creating _________?
+  Ans: move into the holes, creating a new hole
+
+  e. In the valence band, there is a movement of ___________?
+  Ans: holes
+
+  f. In the conduction band, there is a movement of __________?
+  Ans: electrons
+ 
+  g. In semiconductors, current flow is due to?
+  Ans: the flow of electrons and holes
+
+
+11a. What is the fermi-level?
+  Ans: It is the energy level in a given material at which there is a 50% probability that it is filled up with electrons
+
+  b. How can you tell that a material will be a good conductor or a good insulator using the fermi-level?
+  Ans: If the fermi-level lies within a band it will be a good conductor
+       If the fermi-level lies between two widely seperated bands it will be a good insulator
+
+  c. How do you know a material is a semi-conductor using the fermi-level?
+  Ans: If the fermi-level lies inbetween two relatively close bands
+
+  d. At what temperature is the crystal lattice stable with no movement of electron?
+  Ans: At 0 temperature
+      
