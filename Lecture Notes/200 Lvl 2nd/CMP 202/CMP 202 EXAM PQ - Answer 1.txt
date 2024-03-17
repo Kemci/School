@@ -1,0 +1,53 @@
+// Note: To test, just copy entire code and paste in your intellij ide and -> then run the code
+
+public class ONE {
+    // Question 1
+    // a. The saying "write once and run anywhere" describe what java as a language is. As a java programmer, list and explain five features that
+    //    support the assertion in bold.
+    // b. Write a java method to compute the quadratic equation using the formula
+
+    // Answer
+    // 1a.
+    // What java is?
+    // Java is a high-level, easy to write, class-based, object-oriented programming language/
+    // List and explain Five features?
+    // - Inheritance:  Java allows for classes to be inherited by other classes. Basically allowing the class that inherits to be a subclass (child class)
+    //                 to the class it inherits from (parent class). The child class is able to inherit the attributes and methods of the parent class
+    // - Polymorphism: First off polymorphism means "many forms". And this occurs when we have classes that are related together through inheritance, or
+    //                 when we create different objects of a class, all behaving in many forms.
+    //                 use: makes the code re-usable
+    // - Abstraction:  First off abstraction is basically "hiding". Java allows us to abstract data (which means hide data) from user and only showing essential
+    //                 data to the user
+    //                 use: reduces complexity and increases efficiency
+    // - Encapsulation: First off encapsulation means "hiding sensitive data". Java allows for data to be encapsulated(hidden) and un accessible outside the
+    //                  class the data is declared there for making our programs secure
+    //                  use: improves the security when writing programs
+    // - Easy to learn and write: Java is easy to learn. Java was designed to be easy to use and is therefore easy to write, compile, debug, and learn than
+    //                            other programming languages
+
+
+    // 1b
+    static void solveQuadraticEquation(double a, double b, double c){
+        double _a = -1 * b;             // _a = -b
+        double _b = Math.pow(b, 2);     // _b = b²
+        double _c = 4 * a * c;          // _c = 4ac
+        double _d = 2 * a;              // _d = 2a
+        
+        // SOLVE QUADRATIC EQUATION                     // Note in here I use one forward slash(/) as square root
+        double top_right = _b - _c;                     // -b - 4ac
+        double top_right_sqr = Math.sqrt(top_right);    // /-b - 4ac
+        double top_added = _a + top_right_sqr;          // -b + /-b - 4ac
+
+        double result1 = top_added / _d;                // -b + /-b - 4ac {divided by} 2a
+        double top_subtracted = _a - top_right_sqr;     // -b - /-b - 4ac
+        double result2 = top_subtracted / _d;           // -b - /-b - 4ac {divided by} 2a
+
+        System.out.println("SOLUTION");
+        System.out.println("x = " + result1);           // print out: x = result1
+        System.out.println("y = " + result2);           // print out: y = result1
+    }
+
+    public static void main (String [] args) {
+        solveQuadraticEquation(2, 5, 3);
+    }
+}

@@ -1,0 +1,61 @@
+// Note: To test, just copy entire code and paste in your intellij ide and -> then run the code
+
+package Question1;
+
+public class FIVE {
+    // Question 5
+
+    // a. Using for loop or while loop, compute the sum of numbers from 1 to 1000
+    // b. with examples, explain implicit and explicit type casting
+    // c. What is a java comment?
+    // d. With example, show how it is possible to add integers (int) and float and keep the answer as integer
+
+    // Answer
+
+    // 5a.
+    static void sumNumbersFromOneTo1000(){
+        int sum = 0;                       // declare & initialize sum
+        for (int i = 1; i <= 1000; i++) {  // use for loop
+            sum = sum + i;                 // add i to sum on each loop
+        }
+        System.out.println("sum = " + sum);
+    }
+
+
+    // b.
+    // implicit: this happens when the programming language automatically changes the data type of one value to another
+
+    // explicit: this happens when the programmer tells the programming language to change the data type of one value to another
+    // Example
+    // implicit type casting
+    // int num1 = 5;
+    // int num2 = 5
+
+    // double d_num = num1 + num2;       // implicit conversion: java converts num1 and num 2 to double
+    // explicit type casting
+    // String age = "51";
+
+    // int num = Integer.parseInt(age);  // explicit conversion: You the programmer tells java to convert age(Sting) to num(int)
+
+
+    // c. A java comment is a statement that is not executed by the compiler
+
+
+    // 5d.
+    static void addIntAndFloat() {
+         int a = 5;
+         Float b = 5.0F;
+         int sum = a + b.intValue();                    // b.intValue converts the float to int data type
+
+        System.out.println("Convert to int = " + sum);  // print convert to in = 10
+    }
+
+    public static void main(String [] args){
+        // 5a
+        sumNumbersFromOneTo1000();
+
+        // 5d
+        addIntAndFloat();
+    }
+}
+

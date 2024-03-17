@@ -1,0 +1,35 @@
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("CMP212 ASSIGNMENT");
+        System.out.println("Name: Ikemka Romason Romanus ");
+        System.out.println("Matric no: BHU/20/04/05/0046 ");
+        int[][] scores = {{92, 75, 82, 55, 90},
+                {75, 60, 70, 45, 75},
+                {60, 17, 50, 40, 35},
+                {35, 80, 65, 44, 60},
+                {70, 75, 77, 51, 55}};
+
+        System.out.println("1. Print out all the data = ");
+        for (int i = 0; i <= 4; i++) {
+            for (int j = 0; j <= 4; j++) {
+                System.out.println(scores[i][j]);
+            }
+        }
+        System.out.println("2. Print out all the data on the 5th column = ");
+        for (int i = 0; i <= 4; i++) {
+            System.out.println(scores[i][4]);
+        }
+        System.out.println("3. Print out all the data on the 4th row = ");
+        for (int i = 0; i <= 4; i++) {
+            System.out.println(scores[3][i]);
+        }
+        System.out.println("4. Print out all the data on the diagonal = ");
+        for (int i = 0; i <= 4; i++) {
+            System.out.println(scores[i][i]);
+        }
+        System.out.println("5. Sum of first and last element");
+        int sum = scores[0][0]+ scores[4][4];
+        System.out.println("The sum = "+sum);
+    }
+}

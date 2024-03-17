@@ -1,0 +1,35 @@
+// Note: To test, just copy entire code and paste in your intellij ide and -> then run the code
+
+public class TWO {
+    // Question 2
+    // a. using a java method (function) write a program to compute the simple interest using the formula
+    //    Simple Interest = P * T * R {divided by} 100
+    // b. How will you explain the following term to a novice as they relate to java programming?
+    //    i. Method  ii. Class  iii. Operator Overloading  iv. abstraction  v. primitive types
+
+    // Answer
+
+    // 2a
+    static void calculateSimpleInterest(double p, double t, double r) {
+        double top = p * t * r;                // top = p * t * r
+        double result = top / 100;             // result = p * t * r / 100
+
+        System.out.println("SOLUTION");
+        System.out.println("Simple Interest = " + result + " Naira");    // print out: Simple interest = result Naira
+    }
+
+    public static void main(String [] args){
+        calculateSimpleInterest(1000, 60, 5);                   // call method
+    }
+
+    // 2b
+    // Method: this is a function that does something. e.g a human being can walk, can talk, can eat, can sleep, can sing.
+    //         These are methods(or functions) a human being can do.
+    // Class:  this is the blueprint for creating an object e.g a human being can be a class, while an object of the human being class(blueprint)
+    //         can be Mr. Yusuf, Mr. Aremu, Mr. Emmanuel Azuaba
+    // Operator Overloading: this means an operator(e.g + - / *) can be used on different data types to get different results
+    //                       e.g x = 5 + 5        // x = 10
+    //                       e.g y = "a" + "b"    // y = ab
+    // Abstraction:          this basically means "hiding data" and only showing data that is relevant to the user
+    // Primitive DataTypes:  this is a data type that is built into the programming language and can be used to get all other data types
+}

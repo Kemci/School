@@ -1,0 +1,138 @@
+VARIABLE
+Is a memory location that holds different data types such as float, string etc.
+
+METHOD 
+Is a block of code that performs one function/action within a class. Actions performed on methods are created and call
+
+ACCESS MODIFIERS
+Access modifiers are keywords used to specify the accessibility of a class (or type) and its members.
+- Public (access at any point of the code)
+- Protected
+- default 
+- Private (access only within a class)
+
+Access-modifier > return-type > name-of-method (argument){code}
+Eg.
+ Public float calculatePotentialEnergy (float m, float g, float h) {} 
+
+
+NON-ACCESS MODIFIERS
+1. Final - attributes and methods cannot be overridden/modified
+2. Static - attributes and methods belong to class rather than object
+
+
+CAMELCASE
+Methods, Objects and Variables - Start with small letters then other words start with a capital letter eg. princeKwemziAondover 
+Class - all words start with a capital letter 
+
+
+
+CLASS
+Class is a blueprint or template that models an object
+
+Features of class
+Attributes, state, fields (Variable) eg. Type of drink, price etc.
+Behaviour (methods) eg. addMoreDrinks, removeDrinks etc.
+
+Types of Classes
+Nested Classes (a class inside another class)
+Anonymous classes (nameless class)
+
+CONSTRUCTOR
+A method with the same name as a class
+
+CREATING A CLASS
+ClassName ObjectName = new Constructor () e.g
+Main drinks = new Main ();  
+
+
+ABSTRACTION
+Is a process of hiding the implementation details and showing only the functionality to the user.
+
+
+ENCAPSULATION: 
+To make sure that sensitive data are hidden from the user
+
+Public class person {
+   Private String name;
+   Public String getName(){
+   return name;
+   }
+  Public String getName (String newName) {
+       this.name = newName;
+    }
+}
+
+INHERITANCE 
+is a subclass that inherit all the attributes and method of a superclass.
+
+POLYMORPHISM: 
+is a concept by which the can perform a single action in many ways. 
+
+
+
+
+
+
+FOR LOOP
+For > start-position; end-position; increment(i++)/decrement(I—){}
+For (int I=10; I<= 100; I++){}
+
+
+
+ERROR
+Errors are problems within your program that occur at compiling time.
+
+Types of Errors
+MemoryException
+ArrayOutOfBounds
+
+GUI -sample 
+Import Javax.Swing.*;
+
+DATA PARSING: converting one data type to another.
+
+INTERFACE
+An interface is an abstract type that defines a class.
+
+
+SOLID PRINCIPLES
+S- Single Responsibility Principle (every java class should perform a single functionality)
+O- Open-Closed Principle ( A class should be open to extensions but closed to multifunction)
+L- Leskov Subtraction Principle (derived (child) class should be substitutable for a parent class)
+I- Interface Segregation Principle (clients shouldn’t be forced to depend on interfaces they don’t have)
+D- Dependency Inversion Principle (a class should not depend on the concrete implementation of another class but instead its abstraction)
+
+ERROR VS EXCEPTION
+
+note: Java cannot inherit more than one class
+
+FUNCTION OVERRIDING
+Function overriding is a feature that allows us to have the same function in the child class which is already present in the parent class.  THE CHILD CLASS OVERRIDES THE SUPERCLASS
+
+FUNCTION OVERLOADING
+Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. SAME PARAMETER DIFFERENT RETURN TYPE
+
+import java.util.*;  
+public class Swap_With {  
+    public static void main(String[] args) {  
+       int x, y, t;
+       Scanner sc = new Scanner(System.in);  
+       System.out.println("Enter the value of X and Y");  
+       x = sc.nextInt();  
+       y = sc.nextInt();  
+       System.out.println("Before Swap: "+x +"  "+ y);  
+       
+       t = x;  
+       x = y;  
+       y = t;  
+       System.out.println("After Swap: "+x +"   " + y);  
+       System.out.println( );  
+    }    
+}
+
+
+SWING 
+swing is a part of java foundation classes (JFC) that is used to create window-based applications
+
+Unlike Abstract Windowing Toolkit (AWT) -Java swing provides platform-independent and lightweight component
