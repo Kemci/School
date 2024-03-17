@@ -1,0 +1,19 @@
+Object Oriented Programming Basics
+
+*Class
+*Object
+*Instantiation
+*Member Variables
+*Abstraction
+*Interfaces
+*Member Function
+*Inheritance
+*Constructor
+*Polymorphism
+
+OOP is better than structured programming because of
+*Code manageability
+*Dynamism
+*Real Life Application
+
+Assignment: Convert USSD code to OOP

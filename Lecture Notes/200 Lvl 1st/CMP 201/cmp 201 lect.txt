@@ -1,0 +1,17 @@
+function overloading: same function but different parameters. giving a function name more...
+function overriding: 
+In OOP super class is the inherited class, the subclass is the inheriting class 
+
+2 Types of Functions: 1. User defined functions
+		      2. In-built functions
+
+function definition/declaration
+function invocation/calling
+function signature
+
+Write a function to find the difference between 2 numbers
+-preprocessor
+-function signature
+-main function
+	-invocation
+-function declaration
